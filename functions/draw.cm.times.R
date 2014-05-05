@@ -1,0 +1,18 @@
+draw.cm.times <- function(){     
+  abline(v=as.numeric(as.POSIXlt("2013-04-20")), col="dark green", lty="dotdash")
+  abline(v=as.numeric(as.POSIXlt("2012-04-22")), col="dark green", lty="dotdash")
+  abline(v=as.numeric(as.POSIXlt("2011-09-22")), col="dark green", lty="dotdash")
+  abline(v=as.numeric(as.POSIXlt("2011-04-30")), col="dark green", lty="dotdash")
+  abline(v=as.numeric(as.POSIXlt("2010-09-22")), col="dark green", lty="dotdash")
+  abline(v=as.numeric(as.POSIXlt("2010-04-24")), col="dark green", lty="dotdash")
+  abline(v=as.numeric(as.POSIXlt("2009-09-22")), col="dark green", lty="dotdash")
+  abline(v=as.numeric(as.POSIXlt("2009-04-19")), col="dark green", lty="dotdash")
+  abline(v=as.numeric(as.POSIXlt("2008-09-22")), col="dark green", lty="dotdash")
+  abline(v=as.numeric(as.POSIXlt("2008-04-20")), col="dark green", lty="dotdash")
+  abline(v=as.numeric(as.POSIXlt("2007-09-22")), col="dark green", lty="dotdash")
+  abline(v=as.numeric(as.POSIXlt("2007-04-22")), col="dark green", lty="dotdash")
+  abline(v=as.numeric(as.POSIXlt("2006-04-22")), col="dark green", lty="dotdash")
+  abline(v=as.numeric(as.POSIXlt("2005-09-22")), col="dark green", lty="dotdash")
+  abline(v=as.numeric(as.POSIXlt("2005-04-22")), col="dark green", lty="dotdash")
+  abline(v=as.numeric(as.POSIXlt("2004-09-22")), col="dark green", lty="dotdash")
+}
